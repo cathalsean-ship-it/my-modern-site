@@ -14,35 +14,24 @@ import Footer from '../components/Footer.astro';
 				<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 					<div>
 						<h1 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-							Confident English comes from
-							<span style="color: var(--color-primary)">using it</span> –
-							not memorising it
+							Confident English comes from using it – not memorising it
 						</h1>
-						<p class="text-xl text-gray-600 mb-8">
-							Small groups, native teachers, and meaningful practice for intermediate learners who hesitate to speak.
-						</p>
-						<div class="flex flex-col sm:flex-row gap-4">
-							<a
-								href="/lessons"
-								class="inline-block px-8 py-3 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all"
-								style="background-color: var(--color-primary)"
-							>
-								Explore Lessons
-							</a>
-							<a
-								href="/contact"
-								class="inline-block px-8 py-3 border-2 font-semibold rounded-lg hover:bg-gray-50 transition-all"
-								style="border-color: var(--color-primary); color: var(--color-primary)"
-							>
-								Book Free Consultation
-							</a>
+						<div class="space-y-6 text-lg text-gray-700">
+							<p>
+								<strong>Immersion English is for learners who:</strong>
+							</p>
+							<ul class="list-disc list-inside space-y-2">
+								<li>already know English but hesitate to speak;</li>
+								<li>want to feel comfortable using English naturally and to practise with a native, experienced English teacher;</li>
+								<li>prefer to learn in small groups or one-to-one lessons, with more opportunities to speak and more individual attention.</li>
+							</ul>
 						</div>
 					</div>
 					<div class="relative">
-						<div class="aspect-w-4 aspect-h-3 rounded-2xl overflow-hidden shadow-2xl">
+						<div class="rounded-2xl overflow-hidden shadow-2xl">
 							<img
-								src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop"
-								alt="Students practicing English together in a friendly café setting"
+								src="/images/hero-cafe.jpg"
+								alt="four people socialising in a cafe"
 								class="object-cover w-full h-full"
 							/>
 						</div>
@@ -51,165 +40,96 @@ import Footer from '../components/Footer.astro';
 			</div>
 		</section>
 
-		<!-- Key Benefits Section -->
+		<!-- Program Overview Section -->
 		<section class="py-16 bg-white">
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+				<div class="max-w-4xl mx-auto text-center">
+					<p class="text-xl text-gray-700 leading-relaxed mb-8">
+						Immersion English programmes are designed to help learners speak with confidence, think independently and communicate naturally – in everyday situations.
+					</p>
+					<p class="text-xl text-gray-700 leading-relaxed">
+						We offer structured English learning through year-round courses and short-term immersion programmes abroad. Both are built around the same principle: <strong>English is learned best when it's used meaningfully.</strong>
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- English Lessons Section -->
+		<section class="py-16 bg-gray-50">
 			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div class="text-center mb-12">
 					<h2 class="text-3xl font-bold text-gray-900 mb-4">
-						Why Immersion English?
+						English Lessons
 					</h2>
-					<p class="text-xl text-gray-600">
-						Designed for learners with existing English knowledge seeking confidence
+					<p class="text-xl" style="color: var(--color-primary)">
+						Consistent practice. Real communication. Clear progress.
 					</p>
 				</div>
 
-				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-					<div class="text-center">
-						<div class="w-16 h-16 mx-auto mb-4 rounded-full flex items-center justify-center" style="background-color: var(--color-primary)">
-							<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+				<div class="max-w-3xl mx-auto">
+					<ul class="space-y-3 text-lg text-gray-700">
+						<li class="flex items-start">
+							<svg class="w-6 h-6 mr-3 flex-shrink-0 mt-1" style="color: var(--color-primary)" fill="currentColor" viewBox="0 0 20 20">
+								<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
 							</svg>
-						</div>
-						<h3 class="text-lg font-semibold mb-2">Speaking Accuracy</h3>
-						<p class="text-gray-600">Focus on expressing yourself correctly and naturally</p>
-					</div>
-
-					<div class="text-center">
-						<div class="w-16 h-16 mx-auto mb-4 rounded-full flex items-center justify-center" style="background-color: var(--color-primary)">
-							<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+							<span>speaking with accuracy and confidence;</span>
+						</li>
+						<li class="flex items-start">
+							<svg class="w-6 h-6 mr-3 flex-shrink-0 mt-1" style="color: var(--color-primary)" fill="currentColor" viewBox="0 0 20 20">
+								<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
 							</svg>
-						</div>
-						<h3 class="text-lg font-semibold mb-2">Natural Fluency</h3>
-						<p class="text-gray-600">Develop confidence through active communication</p>
-					</div>
-
-					<div class="text-center">
-						<div class="w-16 h-16 mx-auto mb-4 rounded-full flex items-center justify-center" style="background-color: var(--color-primary)">
-							<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+							<span>developing natural fluency;</span>
+						</li>
+						<li class="flex items-start">
+							<svg class="w-6 h-6 mr-3 flex-shrink-0 mt-1" style="color: var(--color-primary)" fill="currentColor" viewBox="0 0 20 20">
+								<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
 							</svg>
-						</div>
-						<h3 class="text-lg font-semibold mb-2">Listening Enhancement</h3>
-						<p class="text-gray-600">Improve comprehension in real conversations</p>
-					</div>
-
-					<div class="text-center">
-						<div class="w-16 h-16 mx-auto mb-4 rounded-full flex items-center justify-center" style="background-color: var(--color-primary)">
-							<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+							<span>improving listening and communicative skills;</span>
+						</li>
+						<li class="flex items-start">
+							<svg class="w-6 h-6 mr-3 flex-shrink-0 mt-1" style="color: var(--color-primary)" fill="currentColor" viewBox="0 0 20 20">
+								<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
 							</svg>
-						</div>
-						<h3 class="text-lg font-semibold mb-2">Practical English</h3>
-						<p class="text-gray-600">Move beyond textbooks to real-life usage</p>
-					</div>
-				</div>
-			</div>
-		</section>
+							<span>using English for real purposes.</span>
+						</li>
+					</ul>
 
-		<!-- Course Offerings Section -->
-		<section class="py-16 bg-gray-50">
-			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-				<div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-					<div class="bg-white p-8 rounded-xl shadow-lg">
-						<h2 class="text-2xl font-bold mb-4" style="color: var(--color-primary)">Year-Round Courses</h2>
-						<p class="text-gray-600 mb-6">
-							Face-to-face and online English lessons based in Sofia. We move beyond traditional textbook methods with a dynamic, personalized approach.
-						</p>
-						<ul class="space-y-3 mb-6">
-							<li class="flex items-start">
-								<svg class="w-6 h-6 mr-2 flex-shrink-0" style="color: var(--color-primary)" fill="currentColor" viewBox="0 0 20 20">
-									<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-								</svg>
-								<span class="text-gray-700">Exam preparation (IELTS, CAE)</span>
-							</li>
-							<li class="flex items-start">
-								<svg class="w-6 h-6 mr-2 flex-shrink-0" style="color: var(--color-primary)" fill="currentColor" viewBox="0 0 20 20">
-									<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-								</svg>
-								<span class="text-gray-700">Professional communication and interview skills</span>
-							</li>
-							<li class="flex items-start">
-								<svg class="w-6 h-6 mr-2 flex-shrink-0" style="color: var(--color-primary)" fill="currentColor" viewBox="0 0 20 20">
-									<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-								</svg>
-								<span class="text-gray-700">Effective writing instruction</span>
-							</li>
-							<li class="flex items-start">
-								<svg class="w-6 h-6 mr-2 flex-shrink-0" style="color: var(--color-primary)" fill="currentColor" viewBox="0 0 20 20">
-									<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-								</svg>
-								<span class="text-gray-700">Small groups or one-to-one formats</span>
-							</li>
-						</ul>
+					<div class="mt-8 text-center">
+						<a
+							href="/about"
+							class="inline-block text-lg hover:underline"
+							style="color: var(--color-primary)"
+						>
+							Learn more about us →
+						</a>
+						<span class="mx-4 text-gray-400">|</span>
 						<a
 							href="/lessons"
-							class="inline-block px-6 py-3 text-white font-semibold rounded-lg transition-all hover:shadow-lg"
-							style="background-color: var(--color-primary)"
+							class="inline-block text-lg hover:underline"
+							style="color: var(--color-primary)"
 						>
-							Learn More
-						</a>
-					</div>
-
-					<div class="bg-white p-8 rounded-xl shadow-lg border-2" style="border-color: var(--color-secondary)">
-						<h2 class="text-2xl font-bold mb-4" style="color: var(--color-secondary)">Dublin Summer 2027</h2>
-						<p class="text-gray-600 mb-6">
-							More than conventional language instruction – a journey into Irish culture, connection and communication for teenagers aged 13-17.
-						</p>
-						<ul class="space-y-3 mb-6">
-							<li class="flex items-start">
-								<svg class="w-6 h-6 mr-2 flex-shrink-0" style="color: var(--color-secondary)" fill="currentColor" viewBox="0 0 20 20">
-									<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-								</svg>
-								<span class="text-gray-700">Immersive cultural experience in Dublin</span>
-							</li>
-							<li class="flex items-start">
-								<svg class="w-6 h-6 mr-2 flex-shrink-0" style="color: var(--color-secondary)" fill="currentColor" viewBox="0 0 20 20">
-									<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-								</svg>
-								<span class="text-gray-700">Accommodation and activities included</span>
-							</li>
-							<li class="flex items-start">
-								<svg class="w-6 h-6 mr-2 flex-shrink-0" style="color: var(--color-secondary)" fill="currentColor" viewBox="0 0 20 20">
-									<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-								</svg>
-								<span class="text-gray-700">Structured weekly program</span>
-							</li>
-							<li class="flex items-start">
-								<svg class="w-6 h-6 mr-2 flex-shrink-0" style="color: var(--color-secondary)" fill="currentColor" viewBox="0 0 20 20">
-									<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-								</svg>
-								<span class="text-gray-700">For teens aged 13-17</span>
-							</li>
-						</ul>
-						<a
-							href="/dublin-summer-2027"
-							class="inline-block px-6 py-3 text-white font-semibold rounded-lg transition-all hover:shadow-lg"
-							style="background-color: var(--color-secondary)"
-						>
-							Discover Dublin Program
+							View courses →
 						</a>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<!-- CTA Section -->
-		<section class="py-16 bg-white">
+		<!-- Immersive Summer Programme Section -->
+		<section class="py-16 bg-gray-50">
 			<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 				<h2 class="text-3xl font-bold text-gray-900 mb-4">
-					Ready to speak with confidence?
+					Immersive Summer Programme for Teens (13-17 year olds)
 				</h2>
-				<p class="text-xl text-gray-600 mb-8">
-					Book a free 20-minute online consultation with a teacher to discuss your learning objectives.
+				<p class="text-lg text-gray-700 mb-8">
+					Experience English immersion in Dublin, Ireland with our summer programme designed specifically for teenagers.
 				</p>
 				<a
-					href="/contact"
-					class="inline-block px-8 py-4 text-white text-lg font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all"
-					style="background-color: var(--color-primary)"
+					href="/dublin-summer-2027"
+					class="inline-block px-8 py-3 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all"
+					style="background-color: var(--color-secondary)"
 				>
-					Book Free Consultation
+					Learn More
 				</a>
 			</div>
 		</section>

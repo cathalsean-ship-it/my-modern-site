@@ -1,0 +1,101 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+---
+
+<Layout
+	title="Weekly Programme - Dublin Summer 2027 - Immersion English"
+	description="View the weekly schedule for the Dublin Summer 2027 programme."
+>
+	<Header />
+
+	<main class="flex-1">
+		<!-- Hero Section -->
+		<section class="bg-gradient-to-br from-orange-50 to-white py-16">
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+				<h1 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+					Weekly Programme
+				</h1>
+				<p class="text-xl text-gray-600">
+					A balanced schedule of English lessons, trips, and activities
+				</p>
+			</div>
+		</section>
+
+		<!-- Programme Overview -->
+		<section class="py-16 bg-white">
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+				<div class="mb-12">
+					<h2 class="text-3xl font-bold mb-6" style="color: var(--color-secondary)">Daily Schedule</h2>
+					<p class="text-lg text-gray-700 mb-8">
+						Students follow a balanced educational timetable with daily trips and free time between activities.
+					</p>
+
+					<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+						<div class="bg-orange-50 p-6 rounded-lg">
+							<div class="w-12 h-12 mb-4 rounded-lg flex items-center justify-center" style="background-color: var(--color-secondary)">
+								<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+								</svg>
+							</div>
+							<h3 class="text-xl font-bold mb-2">Morning Sessions</h3>
+							<p class="text-gray-700">Interactive English lessons with native teachers</p>
+						</div>
+
+						<div class="bg-orange-50 p-6 rounded-lg">
+							<div class="w-12 h-12 mb-4 rounded-lg flex items-center justify-center" style="background-color: var(--color-secondary)">
+								<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+								</svg>
+							</div>
+							<h3 class="text-xl font-bold mb-2">Afternoon Activities</h3>
+							<p class="text-gray-700">Cultural excursions and guided tours of Dublin</p>
+						</div>
+
+						<div class="bg-orange-50 p-6 rounded-lg">
+							<div class="w-12 h-12 mb-4 rounded-lg flex items-center justify-center" style="background-color: var(--color-secondary)">
+								<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+								</svg>
+							</div>
+							<h3 class="text-xl font-bold mb-2">Evening Events</h3>
+							<p class="text-gray-700">Social activities with fellow students</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Contact for Details -->
+				<div class="bg-gray-50 p-8 rounded-xl text-center">
+					<h3 class="text-2xl font-bold mb-4">Detailed Schedule</h3>
+					<p class="text-lg text-gray-700 mb-6">
+						For a complete weekly schedule and programme details, please contact us.
+					</p>
+					<div class="space-y-4">
+						<div>
+							<p class="text-gray-600">Email</p>
+							<a href="mailto:immersionenglish.ie@gmail.com" class="text-lg font-semibold hover:underline" style="color: var(--color-secondary)">
+								immersionenglish.ie@gmail.com
+							</a>
+						</div>
+						<div>
+							<p class="text-gray-600">Phone (English)</p>
+							<a href="tel:+359893387464" class="text-lg font-semibold hover:underline" style="color: var(--color-secondary)">
+								+359 89 338 7464
+							</a>
+						</div>
+						<div>
+							<p class="text-gray-600">Phone (Bulgarian)</p>
+							<a href="tel:+359889178100" class="text-lg font-semibold hover:underline" style="color: var(--color-secondary)">
+								+359 88 917 8100
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<Footer />
+</Layout>
