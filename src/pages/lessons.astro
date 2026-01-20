@@ -1,0 +1,229 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout
+	title="Lessons - Immersion English"
+	description="Speaking-focused English lessons for confident, real-life communication. Online delivery in small groups or one-on-one formats."
+>
+	<Header />
+
+	<main class="flex-1">
+		<!-- Hero Section -->
+		<section class="bg-gradient-to-br from-green-50 to-white py-16">
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+				<h1 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+					<span style="color: var(--color-primary)">Speaking-focused</span> English Lessons
+				</h1>
+				<p class="text-xl text-gray-600 max-w-3xl">
+					For confident, real-life communication. All sessions conducted online in small groups or one-on-one formats.
+				</p>
+			</div>
+		</section>
+
+		<!-- Key Features -->
+		<section class="py-16 bg-white">
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+				<div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+					<div>
+						<h2 class="text-3xl font-bold mb-6">What Makes Our Lessons Special</h2>
+						<ul class="space-y-4">
+							<li class="flex items-start">
+								<svg class="w-6 h-6 mr-3 flex-shrink-0" style="color: var(--color-primary)" fill="currentColor" viewBox="0 0 20 20">
+									<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+								</svg>
+								<div>
+									<h3 class="font-semibold text-lg mb-1">Small Group Sessions</h3>
+									<p class="text-gray-600">Maximum attention and plenty of opportunities to practice speaking</p>
+								</div>
+							</li>
+							<li class="flex items-start">
+								<svg class="w-6 h-6 mr-3 flex-shrink-0" style="color: var(--color-primary)" fill="currentColor" viewBox="0 0 20 20">
+									<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+								</svg>
+								<div>
+									<h3 class="font-semibold text-lg mb-1">One-to-One Options</h3>
+									<p class="text-gray-600">Personalized attention tailored to your specific goals and needs</p>
+								</div>
+							</li>
+							<li class="flex items-start">
+								<svg class="w-6 h-6 mr-3 flex-shrink-0" style="color: var(--color-primary)" fill="currentColor" viewBox="0 0 20 20">
+									<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+								</svg>
+								<div>
+									<h3 class="font-semibold text-lg mb-1">Online Delivery</h3>
+									<p class="text-gray-600">Learn from anywhere with flexible scheduling to fit your lifestyle</p>
+								</div>
+							</li>
+							<li class="flex items-start">
+								<svg class="w-6 h-6 mr-3 flex-shrink-0" style="color: var(--color-primary)" fill="currentColor" viewBox="0 0 20 20">
+									<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+								</svg>
+								<div>
+									<h3 class="font-semibold text-lg mb-1">All Materials Included</h3>
+									<p class="text-gray-600">Course content and resources provided as part of the lesson fees</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="relative">
+						<img
+							src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=800&fit=crop"
+							alt="Online English lesson"
+							class="rounded-2xl shadow-2xl object-cover w-full h-full"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Course Types -->
+		<section class="py-16 bg-gray-50">
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+				<h2 class="text-3xl font-bold mb-12 text-center">Course Options</h2>
+
+				<div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+					<!-- General English -->
+					<div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow">
+						<div class="w-16 h-16 mb-6 rounded-full flex items-center justify-center mx-auto" style="background-color: var(--color-primary)">
+							<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+							</svg>
+						</div>
+						<h3 class="text-2xl font-bold mb-4 text-center">General English</h3>
+						<p class="text-gray-600 mb-6 text-center">
+							Improve your overall English skills with engaging, communicative lessons
+						</p>
+						<ul class="space-y-3 mb-6">
+							<li class="flex items-center text-gray-700">
+								<svg class="w-5 h-5 mr-2" style="color: var(--color-primary)" fill="currentColor" viewBox="0 0 20 20">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+								</svg>
+								Speaking & Fluency
+							</li>
+							<li class="flex items-center text-gray-700">
+								<svg class="w-5 h-5 mr-2" style="color: var(--color-primary)" fill="currentColor" viewBox="0 0 20 20">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+								</svg>
+								Listening Skills
+							</li>
+							<li class="flex items-center text-gray-700">
+								<svg class="w-5 h-5 mr-2" style="color: var(--color-primary)" fill="currentColor" viewBox="0 0 20 20">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+								</svg>
+								Vocabulary Building
+							</li>
+							<li class="flex items-center text-gray-700">
+								<svg class="w-5 h-5 mr-2" style="color: var(--color-primary)" fill="currentColor" viewBox="0 0 20 20">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+								</svg>
+								Grammar in Context
+							</li>
+						</ul>
+					</div>
+
+					<!-- Exam Preparation -->
+					<div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow border-2" style="border-color: var(--color-primary)">
+						<div class="w-16 h-16 mb-6 rounded-full flex items-center justify-center mx-auto" style="background-color: var(--color-primary)">
+							<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+							</svg>
+						</div>
+						<h3 class="text-2xl font-bold mb-4 text-center">Exam Preparation</h3>
+						<p class="text-gray-600 mb-6 text-center">
+							Targeted preparation for IELTS and CAE with expert strategies
+						</p>
+						<ul class="space-y-3 mb-6">
+							<li class="flex items-center text-gray-700">
+								<svg class="w-5 h-5 mr-2" style="color: var(--color-primary)" fill="currentColor" viewBox="0 0 20 20">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+								</svg>
+								IELTS Preparation
+							</li>
+							<li class="flex items-center text-gray-700">
+								<svg class="w-5 h-5 mr-2" style="color: var(--color-primary)" fill="currentColor" viewBox="0 0 20 20">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+								</svg>
+								CAE Preparation
+							</li>
+							<li class="flex items-center text-gray-700">
+								<svg class="w-5 h-5 mr-2" style="color: var(--color-primary)" fill="currentColor" viewBox="0 0 20 20">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+								</svg>
+								Test Strategies
+							</li>
+							<li class="flex items-center text-gray-700">
+								<svg class="w-5 h-5 mr-2" style="color: var(--color-primary)" fill="currentColor" viewBox="0 0 20 20">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+								</svg>
+								Practice Tests
+							</li>
+						</ul>
+					</div>
+
+					<!-- Professional English -->
+					<div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow">
+						<div class="w-16 h-16 mb-6 rounded-full flex items-center justify-center mx-auto" style="background-color: var(--color-primary)">
+							<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+							</svg>
+						</div>
+						<h3 class="text-2xl font-bold mb-4 text-center">Professional English</h3>
+						<p class="text-gray-600 mb-6 text-center">
+							Advance your career with business communication skills
+						</p>
+						<ul class="space-y-3 mb-6">
+							<li class="flex items-center text-gray-700">
+								<svg class="w-5 h-5 mr-2" style="color: var(--color-primary)" fill="currentColor" viewBox="0 0 20 20">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+								</svg>
+								Business Communication
+							</li>
+							<li class="flex items-center text-gray-700">
+								<svg class="w-5 h-5 mr-2" style="color: var(--color-primary)" fill="currentColor" viewBox="0 0 20 20">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+								</svg>
+								Interview Preparation
+							</li>
+							<li class="flex items-center text-gray-700">
+								<svg class="w-5 h-5 mr-2" style="color: var(--color-primary)" fill="currentColor" viewBox="0 0 20 20">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+								</svg>
+								Professional Writing
+							</li>
+							<li class="flex items-center text-gray-700">
+								<svg class="w-5 h-5 mr-2" style="color: var(--color-primary)" fill="currentColor" viewBox="0 0 20 20">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+								</svg>
+								Presentations
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- CTA Section -->
+		<section class="py-16 bg-white">
+			<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+				<h2 class="text-3xl font-bold text-gray-900 mb-4">
+					Find the Right Course for You
+				</h2>
+				<p class="text-xl text-gray-600 mb-8">
+					Book a free 20-minute consultation to discuss your goals and course options.
+				</p>
+				<a
+					href="/contact"
+					class="inline-block px-8 py-4 text-white text-lg font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all"
+					style="background-color: var(--color-primary)"
+				>
+					Book Free Consultation
+				</a>
+			</div>
+		</section>
+	</main>
+
+	<Footer />
+</Layout>

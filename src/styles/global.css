@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #008037;
+  --color-secondary: #FF914D;
+  --color-primary-hover: #006629;
+}
+
+body {
+  font-family: 'Lato', 'Open Sans', Arial, sans-serif;
+}
